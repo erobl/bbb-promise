@@ -44,10 +44,10 @@ The available parameters for each function call are listed [here](http://docs.bi
 With a room created, we can join it. 
 
 ```javascript
-room.then(function(meeting) {]
+room.then(function(meeting) {
 	var response = meeting.response;
 	console.log("Use this url to enter as a moderator: " + server.join("Someone Special", response.meetingID[0], response.moderatorPW[0]))
 
 	console.log("Use this url to enter as an attendee: " + server.join("Not so Special", response.meetingID[0], response.attendeePW[0]))
-})
+});
 ```
