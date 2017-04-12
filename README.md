@@ -5,7 +5,7 @@ Similar to my [openmeetings library](https://www.npmjs.com/package/openmeetings)
 
 Implemented according to http://docs.bigbluebutton.org/dev/api.html
 
-###Install
+### Install
 
     npm install bbb-promise
 
