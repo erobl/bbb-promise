@@ -20,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/erobl/node-bbb-promise/issues"
   },
-  "homepage": "https://github.com/erobl/node-bbb-promise#readme"
+  "homepage": "https://github.com/erobl/node-bbb-promise#readme",
+  "dependencies": {
+    "build-url": "^1.0.9",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.0",
+    "sha1": "^1.1.1",
+    "xml2js-es6-promise": "^1.1.1"
+  }
 }
