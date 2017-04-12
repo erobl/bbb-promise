@@ -1,0 +1,24 @@
+{
+  "name": "bbb-promise",
+  "version": "0.0.1",
+  "description": "A library that acts as high-level bindings to the bigbluebutton REST API using request-promises to fulfill them",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/erobl/node-bbb-promise.git"
+  },
+  "keywords": [
+    "bigbluebutton",
+    "conferencing",
+    "api"
+  ],
+  "author": "Edgar Robles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erobl/node-bbb-promise/issues"
+  },
+  "homepage": "https://github.com/erobl/node-bbb-promise#readme"
+}
