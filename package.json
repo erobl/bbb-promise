@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/erobl/node-bbb-promise.git"
+    "url": "git+ssh://git@github.com/erobl/bbb-promise.git"
   },
   "keywords": [
     "bigbluebutton",
@@ -18,9 +18,9 @@
   "author": "Edgar Robles",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/erobl/node-bbb-promise/issues"
+    "url": "https://github.com/erobl/bbb-promise/issues"
   },
-  "homepage": "https://github.com/erobl/node-bbb-promise#readme",
+  "homepage": "https://github.com/erobl/bbb-promise#readme",
   "dependencies": {
     "build-url": "^1.0.9",
     "request": "^2.81.0",
