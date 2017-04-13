@@ -5,6 +5,8 @@ Similar to my [openmeetings library](https://www.npmjs.com/package/openmeetings)
 
 Implemented according to http://docs.bigbluebutton.org/dev/api.html
 
+The division of each module was based on [this](http://docs.bigbluebutton.org/dev/api.html#api-resources) part of the documentation
+
 ### Install
 
     npm install bbb-promise
@@ -34,7 +36,7 @@ var extra_params = {
 	record: true,
 	duration: 30
 }
-var room = server.create("Example Room", "someroomid", extra_params);
+var room = server.administration.create("Example Room", "someroomid", extra_params);
 ```
 
 This creates a room called Example Room with the id someroomid and the extra parameters listed there. The library implements the required fields as parameters to each function and the non-required parameters as an extra object that may or may not be called.
@@ -46,8 +48,8 @@ With a room created, we can join it.
 ```javascript
 room.then(function(meeting) {
 	var response = meeting.response;
-	console.log("Use this url to enter as a moderator: " + server.join("Someone Special", response.meetingID[0], response.moderatorPW[0]))
+	console.log("Use this url to enter as a moderator: " + server.administration.join("Someone Special", response.meetingID[0], response.moderatorPW[0]));
 
-	console.log("Use this url to enter as an attendee: " + server.join("Not so Special", response.meetingID[0], response.attendeePW[0]))
+	console.log("Use this url to enter as an attendee: " + server.administration.join("Not so Special", response.meetingID[0], response.attendeePW[0]));
 });
 ```
