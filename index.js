@@ -1,2 +1,3 @@
-module.exports = require('./lib/bbb')
+'use strict';
 
+module.exports = require('./lib/bbb');
